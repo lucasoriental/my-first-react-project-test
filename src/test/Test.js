@@ -37,10 +37,10 @@ const TestFunc = () => {
                     <label></label>
                     <input type="text" value={id} onChange={text1ChangeHandler} />
                 </div> */}
-                <div>
+                {/* <div>
                     <label>Expense Title</label> <br />
                     <input type="text" value={title} onChange={text2ChangeHandler} />
-                </div>
+                </div> */}
                 <div>
                     <label>Amount</label>  <br />
                     <input type="text" value={amount} onChange={text3ChangeHandler} />
